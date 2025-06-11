@@ -1,14 +1,14 @@
 <footer class="bg-[#1f1f1f] text-white font-sans text-sm [&_*]:text-white [&_a]:no-underline [&_a:hover]:no-underline">
-  <div class="container mx-auto px-4">
+    <div class="container mx-auto px-4">
 
-    <!-- Top Grid: Logo + Menus + Newsletter -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-      
-      <!-- LEFT: Logo + Menus -->
-      <div>
-        <div class="logo flex items-center mb-4">
-          <a href="<?php echo esc_url(home_url('/')); ?>" class="block">
-            <?php 
+        <!-- Top Grid: Logo + Menus + Newsletter -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+            <!-- LEFT: Logo + Menus -->
+            <div>
+                <div class="logo flex items-center mb-4">
+                    <a href="<?php echo esc_url(home_url('/')); ?>" class="block">
+                        <?php 
               $footer_logo = get_theme_mod('junior_salon_footer_logo');
               if ($footer_logo) {
                 echo '<img src="' . esc_url($footer_logo) . '" alt="Footer Logo" class="w-[150px] h-auto block" loading="eager">';
@@ -16,82 +16,53 @@
                 echo '<h1 class="text-2xl font-bold">' . esc_html(get_bloginfo('name')) . '</h1>';
               }
             ?>
-          </a>
-        </div>
+                    </a>
+                </div>
 
-        <p class="text-xs uppercase tracking-widest mb-6">Luxury Kidswear</p>
 
-        <div class="grid grid-cols-2 sm:grid-cols-3 gap-6">
-          <div>
-            <h4 class="uppercase font-semibold text-xs mb-3">SHOP</h4>
-            <?php wp_nav_menu([
-              'theme_location' => 'footer1',
-              'container' => false,
-              'menu_class' => 'space-y-2 list-none text-sm',
-              'depth' => 1,
-              'fallback_cb' => false,
-              'link_class' => 'hover:text-yellow-400 transition-colors no-underline',
-            ]); ?>
-          </div>
-          <div>
-            <h4 class="uppercase font-semibold text-xs mb-3">INFORMATION</h4>
-            <?php wp_nav_menu([
-              'theme_location' => 'footer2',
-              'container' => false,
-              'menu_class' => 'space-y-2 list-none text-sm',
-              'depth' => 1,
-              'fallback_cb' => false,
-              'link_class' => 'hover:text-yellow-400 transition-colors no-underline',
-            ]); ?>
-          </div>
-          <div>
-            <h4 class="uppercase font-semibold text-xs mb-3">CUSTOMER CARE</h4>
-            <?php wp_nav_menu([
-              'theme_location' => 'footer3',
-              'container' => false,
-              'menu_class' => 'space-y-2 list-none text-sm',
-              'depth' => 1,
-              'fallback_cb' => false,
-              'link_class' => 'hover:text-yellow-400 transition-colors no-underline',
-            ]); ?>
-          </div>
-        </div>
-      </div>
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-6">
+                    <div>
+                        <h4 class="uppep_ese font-semibold text-xs mb-3">SHOP</h4>
+                        <?php wp_nav_menu([
+      'theme_location' => 'footer1',
+      'container' => false,
+      'menu_class' => 'space-y-2 list-none text-sm pl-0',
+      'depth' => 1,
+      'fallback_cb' => false,
+      'link_class' => 'hover:text-yellow-400 transition-colors no-underline',
+    ]); ?>
+                    </div>
+                    <div>
+                        <h4 class="uppercase font-semibold text-xs mb-3">INFORMATION</h4>
+                        <?php wp_nav_menu([
+      'theme_location' => 'footer2',
+      'container' => false,
+      'menu_class' => 'space-y-2 list-none text-sm pl-0',
+      'depth' => 1,
+      'fallback_cb' => false,
+      'link_class' => 'hover:text-yellow-400 transition-colors no-underline',
+    ]); ?>
+                    </div>
+                    <div>
+                        <h4 class="uppercase font-semibold text-xs mb-3">CUSTOMER CARE</h4>
+                        <?php wp_nav_menu([
+      'theme_location' => 'footer3',
+      'container' => false,
+      'menu_class' => 'space-y-2 list-none text-sm pl-0',
+      'depth' => 1,
+      'fallback_cb' => false,
+      'link_class' => 'hover:text-yellow-400 transition-colors no-underline',
+    ]); ?>
+                    </div>
+                </div>
 
-      <!-- RIGHT: Promo Image + Newsletter -->
-      <div>
-        <?php 
-          $promo_image = get_theme_mod('junior_salon_newsletter_image');
-          if (!empty($promo_image)) {
-              $webp_promo = preg_replace('/\.(jpg|jpeg|png)$/i', '.webp', $promo_image);
-              $webp_exists = @getimagesize($webp_promo);
-        ?>
-<div class="max-w-full overflow-hidden">
-  <picture>
-    <?php if ($webp_exists): ?>
-      <source srcset="<?php echo esc_url($webp_promo); ?>" type="image/webp">
-    <?php endif; ?>
-    <img src="<?php echo esc_url($promo_image); ?>" alt="Newsletter Image" class="rounded-xl max-w-full w-full mb-4">
-  </picture>
-</div>
 
-        <?php } ?>
-        
-        <p class="text-xs tracking-wide mb-1">KEEP ME UPDATED</p>
-        <h3 class="text-xl font-semibold mb-2">Newsletter</h3>
-        <p class="text-sm mb-4">Subscribe to get notified about product launches, special offers and company news.</p>
 
-        <?php echo do_shortcode('[wpforms id="573"]'); ?>
-      </div>
 
-    </div>
-
-    <!-- Bottom Row: Social + Payment -->
-    <div class="px-6 md:px-8 mt-10 pt-6 border-t border-gray-700 flex flex-col md:flex-row justify-between items-center gap-4">
-      <div class="flex items-center gap-4">
-        <span class="text-sm font-semibold">STAY IN TOUCH</span>
-        <div class="flex gap-4 text-2xl">
-          <?php
+                <div class="flex items-center gap-4 justify-between border-t border-gray-700 pt-8 pb-8 mt-10">
+                    <span class="text-sm font-semibold">STAY IN TOUCH</span>
+                    <div class="flex gap-4 text-2xl">
+                        <?php
             $social_links = [
               'facebook_url' => ['icon' => 'fab fa-facebook', 'hover' => 'hover:text-blue-600'],
               'instagram_url' => ['icon' => 'fab fa-instagram', 'hover' => 'hover:text-pink-500'],
@@ -104,33 +75,73 @@
               }
             }
           ?>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- RIGHT: Promo Image + Newsletter -->
+
+            <div class="bg-[#424242] px-5 py-5">
+                <?php 
+          $promo_image = get_theme_mod('junior_salon_newsletter_image');
+          if (!empty($promo_image)) {
+              $webp_promo = preg_replace('/\.(jpg|jpeg|png)$/i', '.webp', $promo_image);
+              $webp_exists = @getimagesize($webp_promo);?>
+                <div class="max-w-full overflow-hidden">
+                    <picture>
+                        <?php if ($webp_exists): ?>
+                        <source srcset="<?php echo esc_url($webp_promo); ?>" type="image/webp">
+                        <?php endif; ?>
+                        <img src="<?php echo esc_url($promo_image); ?>" alt="Newsletter Image"
+                            class="rounded-xl max-w-full w-full mb-4">
+                    </picture>
+                </div>
+
+                <?php } ?>
+
+                <p class="text-xs tracking-wide mb-1">KEEP ME UPDATED</p>
+                <h3 class="text-xl font-semibold mb-2">Newsletter</h3>
+                <p class="text-sm mb-4">Subscribe to get notified about product launches, special offers and company
+                    news.</p>
+
+                <?php echo do_shortcode('[wpforms id="573"]'); ?>
+            </div>
+
         </div>
-      </div>
 
-      <div class="flex items-center gap-2">
-        <?php
-          $payment_image = get_theme_mod('junior_salon_payment_icons');
-          if ($payment_image) {
-            echo '<img src="' . esc_url($payment_image) . '" alt="Payment Icons" class="h-6 w-auto" loading="lazy">';
-          }
-        ?>
-      </div>
-    </div>
 
-    <!-- Copyright -->
-    <div class="text-center text-xs mt-4 mb-4 px-6">
-      <?php 
-        echo wp_kses_post(get_theme_mod('junior_salon_footer_copyright', '© ' . date('Y') . ' Junior Salon. All rights reserved. | Designed by <a href="https://tomsher.co" target="_blank">Tomsher</a>'));
-      ?>
-    </div>
 
+
+<!-- Bottom Row: Social + Payment -->
+<div class="px-6 md:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+  <!-- Copyright -->
+  <div class="text-xs py-4 text-left w-full md:w-auto">
+    © 2025 Juniorsalon. All rights reserved | Designed by <a href="https://tomsher.co" target="_blank" class="underline">Tomsher</a>
   </div>
 
-  <!-- Back to Top -->
-  <a href="#top" class="fixed bottom-4 right-4 bg-black text-white p-2 rounded hover:bg-yellow-400 transition-all" title="Back to top">
-    <i class="fas fa-arrow-up"></i>
-  </a>
+  <!-- Payment Icons -->
+  <div class="flex items-center gap-2 justify-end w-full md:w-auto">
+    <img src="/path/to/payment-icons.png" alt="Payment Icons" class="h-6 w-auto" loading="lazy">
+  </div>
+</div>
+
+<!-- Back to Top -->
+<a href="#top" class="fixed bottom-4 right-4 bg-black text-white p-2 rounded hover:bg-yellow-400 transition-all" title="Back to top">
+  <i class="fas fa-arrow-up"></i>
+</a>
+
+
+
+
+
+
+    </div>
+
+
 </footer>
+
+
 
 
 
