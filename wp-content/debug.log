@@ -1,0 +1,298 @@
+[11-Jun-2025 09:56:20 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-taxonomy' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:56:20 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-taxonomy' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:56:20 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-taxonomy' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:56:20 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-post-type' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:56:20 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-post-type' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:56:20 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-post-type' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:56:36 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts  JOIN QG6dosyx_icl_translations wpml_translations
+							ON QG6dosyx_posts.ID = wpml_translations.element_id
+								AND wpml_translations.element_type = CONCAT('post_', QG6dosyx_posts.post_type) 
+					 WHERE 1=1  AND (QG6dosyx_posts.ID = '419') AND QG6dosyx_posts.post_type = 'page' AND ( ( ( wpml_translations.language_code = 'ar' OR 0 ) AND QG6dosyx_posts.post_type  IN ('post','page','attachment','wp_block','wp_template','wp_template_part','wp_navigation','home-features-banner','testimonial','product','product_variation','shop_order_placehold','sp_accordion_faqs','sp_wp_tabs','wpforms-template' )  ) OR QG6dosyx_posts.post_type  NOT  IN ('post','page','attachment','wp_block','wp_template','wp_template_part','wp_navigation','home-features-banner','testimonial','product','product_variation','shop_order_placehold','sp_accordion_faqs','sp_wp_tabs','wpforms-template' )  )
+					 
+					 ORDER BY QG6dosyx_posts.post_date DESC
+					 
+[11-Jun-2025 09:56:36 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts  JOIN QG6dosyx_icl_translations wpml_translations
+							ON QG6dosyx_posts.ID = wpml_translations.element_id
+								AND wpml_translations.element_type = CONCAT('post_', QG6dosyx_posts.post_type) 
+					 WHERE 1=1  AND (QG6dosyx_posts.ID = '624') AND QG6dosyx_posts.post_type = 'page' AND ( ( ( wpml_translations.language_code = 'ar' OR 0 ) AND QG6dosyx_posts.post_type  IN ('post','page','attachment','wp_block','wp_template','wp_template_part','wp_navigation','home-features-banner','testimonial','product','product_variation','shop_order_placehold','sp_accordion_faqs','sp_wp_tabs','wpforms-template' )  ) OR QG6dosyx_posts.post_type  NOT  IN ('post','page','attachment','wp_block','wp_template','wp_template_part','wp_navigation','home-features-banner','testimonial','product','product_variation','shop_order_placehold','sp_accordion_faqs','sp_wp_tabs','wpforms-template' )  )
+					 
+					 ORDER BY QG6dosyx_posts.post_date DESC
+					 
+[11-Jun-2025 09:56:36 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts  JOIN QG6dosyx_icl_translations wpml_translations
+							ON QG6dosyx_posts.ID = wpml_translations.element_id
+								AND wpml_translations.element_type = CONCAT('post_', QG6dosyx_posts.post_type) 
+					 WHERE 1=1  AND QG6dosyx_posts.post_name = 'baby-boys-pants-in-ecru-lyocell' AND QG6dosyx_posts.ID = 182 AND QG6dosyx_posts.post_type = 'product' AND ( ( ( wpml_translations.language_code = 'en' OR 0 ) AND QG6dosyx_posts.post_type  IN ('post','page','attachment','wp_block','wp_template','wp_template_part','wp_navigation','home-features-banner','testimonial','product','product_variation','shop_order_placehold','sp_accordion_faqs','sp_wp_tabs','wpforms-template' )  ) OR QG6dosyx_posts.post_type  NOT  IN ('post','page','attachment','wp_block','wp_template','wp_template_part','wp_navigation','home-features-banner','testimonial','product','product_variation','shop_order_placehold','sp_accordion_faqs','sp_wp_tabs','wpforms-template' )  )
+					 
+					 ORDER BY QG6dosyx_posts.post_date DESC
+					 
+[11-Jun-2025 09:56:38 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts  JOIN QG6dosyx_icl_translations wpml_translations
+							ON QG6dosyx_posts.ID = wpml_translations.element_id
+								AND wpml_translations.element_type = CONCAT('post_', QG6dosyx_posts.post_type) 
+					 WHERE 1=1  AND QG6dosyx_posts.post_parent = 419  AND QG6dosyx_posts.post_type = 'page' AND ((QG6dosyx_posts.post_status = 'publish')) AND ( ( ( wpml_translations.language_code = 'ar' OR 0 ) AND QG6dosyx_posts.post_type  IN ('post','page','attachment','wp_block','wp_template','wp_template_part','wp_navigation','home-features-banner','testimonial','product','product_variation','shop_order_placehold','sp_accordion_faqs','sp_wp_tabs','wpforms-template' )  ) OR QG6dosyx_posts.post_type  NOT  IN ('post','page','attachment','wp_block','wp_template','wp_template_part','wp_navigation','home-features-banner','testimonial','product','product_variation','shop_order_placehold','sp_accordion_faqs','sp_wp_tabs','wpforms-template' )  )
+					 
+					 ORDER BY QG6dosyx_posts.post_title ASC
+					 LIMIT 0, 1
+[11-Jun-2025 09:56:38 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts  JOIN QG6dosyx_icl_translations wpml_translations
+							ON QG6dosyx_posts.ID = wpml_translations.element_id
+								AND wpml_translations.element_type = CONCAT('post_', QG6dosyx_posts.post_type) 
+					 WHERE 1=1  AND QG6dosyx_posts.post_parent = 624  AND QG6dosyx_posts.post_type = 'page' AND ((QG6dosyx_posts.post_status = 'publish')) AND ( ( ( wpml_translations.language_code = 'ar' OR 0 ) AND QG6dosyx_posts.post_type  IN ('post','page','attachment','wp_block','wp_template','wp_template_part','wp_navigation','home-features-banner','testimonial','product','product_variation','shop_order_placehold','sp_accordion_faqs','sp_wp_tabs','wpforms-template' )  ) OR QG6dosyx_posts.post_type  NOT  IN ('post','page','attachment','wp_block','wp_template','wp_template_part','wp_navigation','home-features-banner','testimonial','product','product_variation','shop_order_placehold','sp_accordion_faqs','sp_wp_tabs','wpforms-template' )  )
+					 
+					 ORDER BY QG6dosyx_posts.post_title ASC
+					 LIMIT 0, 1
+[11-Jun-2025 09:56:43 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-taxonomy' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:56:43 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-post-type' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:56:44 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-field' AND ((QG6dosyx_posts.post_status = 'publish')) AND QG6dosyx_posts.post_name = 'field_68136cb0e98c3'
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 LIMIT 0, 1
+[11-Jun-2025 09:56:44 UTC] SELECT SQL_CALC_FOUND_ROWS  QG6dosyx_posts.*
+					 FROM QG6dosyx_posts  LEFT JOIN QG6dosyx_term_relationships ON (QG6dosyx_posts.ID = QG6dosyx_term_relationships.object_id) JOIN QG6dosyx_icl_translations wpml_translations
+							ON QG6dosyx_posts.ID = wpml_translations.element_id
+								AND wpml_translations.element_type = CONCAT('post_', QG6dosyx_posts.post_type) 
+					 WHERE 1=1  AND ( 
+  QG6dosyx_term_relationships.term_taxonomy_id IN (61)
+) AND QG6dosyx_posts.post_type = 'product' AND ((QG6dosyx_posts.post_status = 'publish')) AND ( ( ( wpml_translations.language_code = 'ar' OR 0 ) AND QG6dosyx_posts.post_type  IN ('post','page','attachment','wp_block','wp_template','wp_template_part','wp_navigation','home-features-banner','testimonial','product','product_variation','shop_order_placehold','sp_accordion_faqs','sp_wp_tabs','wpforms-template' )  ) OR QG6dosyx_posts.post_type  NOT  IN ('post','page','attachment','wp_block','wp_template','wp_template_part','wp_navigation','home-features-banner','testimonial','product','product_variation','shop_order_placehold','sp_accordion_faqs','sp_wp_tabs','wpforms-template' )  )
+					 GROUP BY QG6dosyx_posts.ID
+					 ORDER BY QG6dosyx_posts.post_date DESC
+					 LIMIT 0, 10
+[11-Jun-2025 09:56:44 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-field' AND ((QG6dosyx_posts.post_status = 'publish')) AND QG6dosyx_posts.post_name = 'field_68136ccce98c4'
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 LIMIT 0, 1
+[11-Jun-2025 09:56:44 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-field' AND ((QG6dosyx_posts.post_status = 'publish')) AND QG6dosyx_posts.post_name = 'field_68136cdce98c5'
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 LIMIT 0, 1
+[11-Jun-2025 09:56:44 UTC] SELECT SQL_CALC_FOUND_ROWS  QG6dosyx_posts.*
+					 FROM QG6dosyx_posts  LEFT JOIN QG6dosyx_term_relationships ON (QG6dosyx_posts.ID = QG6dosyx_term_relationships.object_id) JOIN QG6dosyx_icl_translations wpml_translations
+							ON QG6dosyx_posts.ID = wpml_translations.element_id
+								AND wpml_translations.element_type = CONCAT('post_', QG6dosyx_posts.post_type) 
+					 WHERE 1=1  AND ( 
+  QG6dosyx_term_relationships.term_taxonomy_id IN (47)
+) AND ((QG6dosyx_posts.post_type = 'product' AND (QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled' 
+OR QG6dosyx_posts.post_status = 'private'))) AND ( ( ( wpml_translations.language_code = 'en' OR 0 ) AND QG6dosyx_posts.post_type  IN ('post','page','attachment','wp_block','wp_template','wp_template_part','wp_navigation','home-features-banner','testimonial','product','product_variation','shop_order_placehold','sp_accordion_faqs','sp_wp_tabs','wpforms-template' )  ) OR QG6dosyx_posts.post_type  NOT  IN ('post','page','attachment','wp_block','wp_template','wp_template_part','wp_navigation','home-features-banner','testimonial','product','product_variation','shop_order_placehold','sp_accordion_faqs','sp_wp_tabs','wpforms-template' )  )
+					 GROUP BY QG6dosyx_posts.ID
+					 ORDER BY QG6dosyx_posts.post_date DESC
+					 LIMIT 0, 10
+[11-Jun-2025 09:56:44 UTC] SELECT SQL_CALC_FOUND_ROWS  QG6dosyx_posts.*
+					 FROM QG6dosyx_posts  LEFT JOIN QG6dosyx_term_relationships ON (QG6dosyx_posts.ID = QG6dosyx_term_relationships.object_id) JOIN QG6dosyx_icl_translations wpml_translations
+							ON QG6dosyx_posts.ID = wpml_translations.element_id
+								AND wpml_translations.element_type = CONCAT('post_', QG6dosyx_posts.post_type) 
+					 WHERE 1=1  AND ( 
+  QG6dosyx_term_relationships.term_taxonomy_id IN (64)
+) AND ((QG6dosyx_posts.post_type = 'product' AND (QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled' 
+OR QG6dosyx_posts.post_status = 'private'))) AND ( ( ( wpml_translations.language_code = 'ar' OR 0 ) AND QG6dosyx_posts.post_type  IN ('post','page','attachment','wp_block','wp_template','wp_template_part','wp_navigation','home-features-banner','testimonial','product','product_variation','shop_order_placehold','sp_accordion_faqs','sp_wp_tabs','wpforms-template' )  ) OR QG6dosyx_posts.post_type  NOT  IN ('post','page','attachment','wp_block','wp_template','wp_template_part','wp_navigation','home-features-banner','testimonial','product','product_variation','shop_order_placehold','sp_accordion_faqs','sp_wp_tabs','wpforms-template' )  )
+					 GROUP BY QG6dosyx_posts.ID
+					 ORDER BY QG6dosyx_posts.post_date DESC
+					 LIMIT 0, 10
+[11-Jun-2025 09:56:45 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-field' AND ((QG6dosyx_posts.post_status = 'publish')) AND QG6dosyx_posts.post_name = 'field_680f215789581'
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 LIMIT 0, 1
+[11-Jun-2025 09:56:45 UTC] SELECT SQL_CALC_FOUND_ROWS  QG6dosyx_posts.*
+					 FROM QG6dosyx_posts  JOIN QG6dosyx_icl_translations wpml_translations
+							ON QG6dosyx_posts.ID = wpml_translations.element_id
+								AND wpml_translations.element_type = CONCAT('post_', QG6dosyx_posts.post_type) 
+					 WHERE 1=1  AND ((QG6dosyx_posts.post_type = 'home-features-banner' AND (QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled' 
+OR QG6dosyx_posts.post_status = 'private'))) AND ( ( ( wpml_translations.language_code = 'ar' OR 0 ) AND QG6dosyx_posts.post_type  IN ('post','page','attachment','wp_block','wp_template','wp_template_part','wp_navigation','home-features-banner','testimonial','product','product_variation','shop_order_placehold','sp_accordion_faqs','sp_wp_tabs','wpforms-template' )  ) OR QG6dosyx_posts.post_type  NOT  IN ('post','page','attachment','wp_block','wp_template','wp_template_part','wp_navigation','home-features-banner','testimonial','product','product_variation','shop_order_placehold','sp_accordion_faqs','sp_wp_tabs','wpforms-template' )  )
+					 
+					 ORDER BY QG6dosyx_posts.post_date DESC
+					 LIMIT 0, 6
+[11-Jun-2025 09:56:45 UTC] SELECT SQL_CALC_FOUND_ROWS  QG6dosyx_posts.*
+					 FROM QG6dosyx_posts  JOIN QG6dosyx_icl_translations wpml_translations
+							ON QG6dosyx_posts.ID = wpml_translations.element_id
+								AND wpml_translations.element_type = CONCAT('post_', QG6dosyx_posts.post_type) 
+					 WHERE 1=1  AND ((QG6dosyx_posts.post_type = 'testimonial' AND (QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled' 
+OR QG6dosyx_posts.post_status = 'private'))) AND ( ( ( wpml_translations.language_code = 'ar' OR 0 ) AND QG6dosyx_posts.post_type  IN ('post','page','attachment','wp_block','wp_template','wp_template_part','wp_navigation','home-features-banner','testimonial','product','product_variation','shop_order_placehold','sp_accordion_faqs','sp_wp_tabs','wpforms-template' )  ) OR QG6dosyx_posts.post_type  NOT  IN ('post','page','attachment','wp_block','wp_template','wp_template_part','wp_navigation','home-features-banner','testimonial','product','product_variation','shop_order_placehold','sp_accordion_faqs','sp_wp_tabs','wpforms-template' )  )
+					 
+					 ORDER BY QG6dosyx_posts.post_date DESC
+					 LIMIT 0, 3
+[11-Jun-2025 09:56:46 UTC] SELECT SQL_CALC_FOUND_ROWS  QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND ((QG6dosyx_posts.post_type = 'post' AND (QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled' 
+OR QG6dosyx_posts.post_status = 'private')))
+					 
+					 ORDER BY QG6dosyx_posts.post_date DESC
+					 LIMIT 0, 10
+[11-Jun-2025 09:56:47 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-field-group' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:56:48 UTC] PHP Warning:  Undefined variable $start in C:\xampp\htdocs\junior-salon\wp-content\themes\junior-salon\layouts\footer.php on line 165
+[11-Jun-2025 09:56:48 UTC] PHP Warning:  Undefined variable $start in C:\xampp\htdocs\junior-salon\wp-content\themes\junior-salon\layouts\footer.php on line 165
+[11-Jun-2025 09:56:52 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-taxonomy' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:56:52 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-post-type' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:56:52 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-taxonomy' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:56:52 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-post-type' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:56:52 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-taxonomy' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:56:52 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-post-type' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:56:55 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-taxonomy' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:56:55 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-post-type' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:56:56 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-taxonomy' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:56:56 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-post-type' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:56:57 UTC] SELECT SQL_CALC_FOUND_ROWS  QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND ((QG6dosyx_posts.post_type = 'post' AND (QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled' 
+OR QG6dosyx_posts.post_status = 'private')))
+					 
+					 ORDER BY QG6dosyx_posts.post_date DESC
+					 LIMIT 0, 10
+[11-Jun-2025 09:56:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Unable to release actions from claim id 0. in C:\xampp\htdocs\junior-salon\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:1128
+Stack trace:
+#0 C:\xampp\htdocs\junior-salon\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(440): ActionScheduler_DBStore->release_claim(Object(ActionScheduler_ActionClaim))
+#1 C:\xampp\htdocs\junior-salon\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(195): ActionScheduler_HybridStore->release_claim(Object(ActionScheduler_ActionClaim))
+#2 C:\xampp\htdocs\junior-salon\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(158): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\junior-salon\wp-includes\class-wp-hook.php(324): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\junior-salon\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\junior-salon\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\junior-salon\wp-cron.php(191): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\junior-salon\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 1128
+[11-Jun-2025 09:56:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Unable to release actions from claim id 0. in C:\xampp\htdocs\junior-salon\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:1128
+Stack trace:
+#0 C:\xampp\htdocs\junior-salon\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(440): ActionScheduler_DBStore->release_claim(Object(ActionScheduler_ActionClaim))
+#1 C:\xampp\htdocs\junior-salon\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_FatalErrorMonitor.php(95): ActionScheduler_HybridStore->release_claim(Object(ActionScheduler_ActionClaim))
+#2 C:\xampp\htdocs\junior-salon\wp-includes\class-wp-hook.php(324): ActionScheduler_FatalErrorMonitor->handle_unexpected_shutdown('')
+#3 C:\xampp\htdocs\junior-salon\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\junior-salon\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\junior-salon\wp-includes\load.php(1304): do_action('shutdown')
+#6 [internal function]: shutdown_action_hook()
+#7 {main}
+  thrown in C:\xampp\htdocs\junior-salon\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 1128
+[11-Jun-2025 09:57:00 UTC] PHP Warning:  Undefined variable $start in C:\xampp\htdocs\junior-salon\wp-content\themes\junior-salon\layouts\footer.php on line 165
+[11-Jun-2025 09:57:04 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-taxonomy' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:57:04 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-post-type' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:57:05 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-taxonomy' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:57:05 UTC] SELECT   QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND QG6dosyx_posts.post_type = 'acf-post-type' AND ((QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled'))
+					 
+					 ORDER BY QG6dosyx_posts.menu_order ASC, QG6dosyx_posts.post_title ASC
+					 
+[11-Jun-2025 09:57:07 UTC] SELECT SQL_CALC_FOUND_ROWS  QG6dosyx_posts.*
+					 FROM QG6dosyx_posts 
+					 WHERE 1=1  AND ((QG6dosyx_posts.post_type = 'post' AND (QG6dosyx_posts.post_status = 'publish' OR QG6dosyx_posts.post_status = 'acf-disabled' 
+OR QG6dosyx_posts.post_status = 'private')))
+					 
+					 ORDER BY QG6dosyx_posts.post_date DESC
+					 LIMIT 0, 10
